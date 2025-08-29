@@ -10,6 +10,8 @@ public class CustodianApplication {
 		SpringApplication.run(CustodianApplication.class, args);
 
 		System.out.println("Good Morning!");
+		System.out.println("Good Morning!");
+		System.out.println("Good Morning!");
 	}
 
 }
