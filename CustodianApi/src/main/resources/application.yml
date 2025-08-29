@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: custodian
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: dbc:mysql://localhost:3306/Mediantdb
+    username: root
+    password: root
+    properties:
+       hibernate:
+         dialect: rg.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+
